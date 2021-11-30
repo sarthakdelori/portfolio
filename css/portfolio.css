@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+html{
+  font: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  background-color: #00131a;
+  color: white;
+  text-align: center;
+}
+
+.logo-div{
+  margin: 0.25rem 3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.logo{
+  text-decoration: none;
+  color: white;
+}
+
+/* nav css starts */
+
+nav{
+  width: 100%;
+  background-color:#0099cc;
+  color:white;
+  padding: 0.25rem 1rem;
+}
+
+.menu{
+  list-style:none;
+  text-align: right;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0rem 0.8rem;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+
+nav ul li{
+  display: inline;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.2rem;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+nav ul li.item:hover{
+  background-color: white;
+  color: #0099cc;
+  border-radius: 10px;
+}
+
+nav ul li.item:hover a{
+  background-color: white;
+  color: #0099cc;
+}
+
+/* nav css ends */
+
+/* sections css starts */
+
+.sections{
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.headings{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 2.5rem;
+}
+
+.odd{
+  background-color:#010b0f;
+}
+
+.about-para{
+  width: auto;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
+
+.imp-links{
+  color: #0099cc;
+  text-decoration: none;
+}
+
+.btn{
+  font-size: 1.5rem;
+  color: white;
+  background-color: #0099cc;
+  border-color: transparent;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+  padding: 0.6rem;
+}
+
+.btn1{
+  font-size: 1.5rem;
+  background-color: white;
+  color: #0099cc;
+  border-color: transparent;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+  padding: 0.6rem;
+}
+
+#name-para{
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+#name{
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#lastname{
+  color: #0099cc;
+}
+
+.sections-btn{
+  text-decoration: none;
+}
+
+.sections-para{
+  margin-bottom: 1.5rem;
+}
+
+/* sections css ends */
+
+/* Footer */
+
+.footer{
+  background-color: #0099cc;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0 0 0; 
+}
+
+.sm-icons{
+  font-size: 1.5rem;
+  color: white;
+  list-style: none;
+  display: inline;
+  margin: 1rem;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  transition: all 0.4s;
+}
+
+.sm-icons:hover{
+  transform: scale(1.5);
+}
+
+.sm-links{
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer ends */
+
+/* Projects.html starts*/
+
+.my-projects{
+  margin: 3rem 0 1.5rem 0;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+#project-word{
+  color: #0099cc;
+}
+
+.projects-list{
+  list-style: none;
+}
+
+.projects-item{
+  margin: 1.2rem 0;
+  padding: 2rem 3rem;
+}
+
+.projects-heading{
+  font-size: 2rem;
+}
+
+.projects-btn{
+  text-decoration: none;
+  margin: 1rem 0 1rem 0;
+}
+
+.projects-description{
+  margin: 2rem 0;
+}
+
+
+/* Projecct.html ends */
+
+/* responsive starts */
+
+@media all and (max-width:442px){
+  .logo-div{
+    margin: 0.25rem 2rem;
+    text-align: center;
+  }
+  
+  nav ul{
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0 0.2rem;
+  }
+
+  .sections{
+    padding: 2rem 0;
+  }
+
+  .projects-btn{
+    display: block;
+    margin: 0.5rem auto;
+    max-width: fit-content;
+  }
+}
+
+/* responsive ends here */
